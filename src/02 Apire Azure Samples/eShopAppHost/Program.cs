@@ -2,6 +2,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var sqldb = builder.AddSqlServer("sql")
     .WithDataVolume()
+    .WithLifetime(ContainerLifetime.Persistent)
     .AddDatabase("sqldb");
 
 var products = builder.AddProject<Projects.Products>("products")
