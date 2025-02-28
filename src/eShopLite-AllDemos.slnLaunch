@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "02-Aspire",
+    "Projects": [
+      {
+        "Path": "02 Apire Azure Samples\\eShopAppHost\\eShopAppHost.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
