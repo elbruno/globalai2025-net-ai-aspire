@@ -7,5 +7,22 @@
         "Action": "Start"
       }
     ]
+  },
+  {
+    "Name": "Default",
+    "Projects": []
+  },
+  {
+    "Name": "01-base",
+    "Projects": [
+      {
+        "Path": "src\\Products\\Products.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Store\\Store.csproj",
+        "Action": "Start"
+      }
+    ]
   }
 ]
