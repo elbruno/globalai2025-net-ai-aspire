@@ -398,3 +398,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/src/src/Products/Database.db-shm
+/src/src/Products/Database.db-wal
