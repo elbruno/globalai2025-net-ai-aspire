@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.SemanticKernel;
 using System.ComponentModel;
 
-namespace AgentLabs_11KinfeyLabs;
+namespace AgentLabs_11;
 
 public sealed class SearchPlugin
 {

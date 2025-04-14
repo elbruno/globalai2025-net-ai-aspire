@@ -1,7 +1,7 @@
 ﻿using Azure.Core;
 using Azure.Core.Pipeline;
 
-namespace AgentLabs_11KinfeyLabs;
+namespace AgentLabs_11;
 
 internal class CustomHeadersPolicy : HttpPipelineSynchronousPolicy
 {

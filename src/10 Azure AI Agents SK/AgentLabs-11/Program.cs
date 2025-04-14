@@ -1,4 +1,4 @@
-﻿using AgentLabs_11KinfeyLabs;
+﻿using AgentLabs_11;
 using Microsoft.Extensions.Configuration;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Agents;
