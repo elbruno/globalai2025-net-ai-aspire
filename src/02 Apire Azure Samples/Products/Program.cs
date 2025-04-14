@@ -107,6 +107,19 @@ using (var scope = app.Services.CreateScope())
         app.Logger.LogError(exc, "Error creating database");
     }
     DbInitializer.Initialize(context);
+
+    // initialize memory context
+    var memoryContext = scope.ServiceProvider.GetRequiredService<MemoryContext>();
+    try
+    {
+        app.Logger.LogInformation("Initializing memory context");
+        var result = memoryContext.InitMemoryContextAsync(context).Result;
+        app.Logger.LogInformation("Memory context initialized: {Result}", result);
+    }
+    catch (Exception exc)
+    {
+        app.Logger.LogError(exc, "Error initializing memory context");
+    }
 }
 
 app.Run();
