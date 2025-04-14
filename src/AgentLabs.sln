@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semantic Kernel", "Semantic Kernel", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure AI Agent", "Azure AI Agent", "{7F43B7EC-4515-41FC-BBE3-9FB2C9B2A343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B04A8A7-7815-4ADF-BF40-EC65D730C749}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentLabs-11", "10 Azure AI Agents SK\AgentLabs-11\AgentLabs-11.csproj", "{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2F7091F-6F3A-1F52-065D-2CD3463E4FFD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {017AB707-84C6-48CC-BC92-6E66CEC722BC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>AgentLabs_11KinfeyLabs</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>306a0c96-cb96-4d2f-b5a6-338ca4fb241a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.Projects" Version="1.0.0-beta.5" />
+    <PackageReference Include="Azure.Identity" Version="1.14.0-beta.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.Abstractions" Version="1.44.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.Core" Version="1.44.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.OpenAI" Version="1.44.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" Version="1.44.0" />
+  </ItemGroup>
+
+</Project>
