@@ -19,8 +19,15 @@ public sealed class SearchPlugin
         var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
         var cnnstring = config["aifoundryproject_cnnstring"];
         var tenantid = config["aifoundryproject_tenantid"];
-        var searchagentid = "asst_V5US4WMoVc8rhVWkyZz6RIUe"; // config["aifoundryproject_searchagentid"];
+        var searchagentid = config["aifoundryproject_searchagentid"];
         var bingsearchconnectionName = config["aifoundryproject_groundingcnnname"];
+
+        // expenses agent
+        searchagentid = "asst_48T28kP1rCWCkQAoK5aiBXFc";
+        // online researcher
+        // searchagentid = "asst_V5US4WMoVc8rhVWkyZz6RIUe";
+        // Warhammer Researcher
+        // searchagentid = "asst_DK6k4z4ALUGe4KXJ6VqmBm26";
 
         // Adding the custom headers policy
         var clientOptions = new AIProjectClientOptions();
