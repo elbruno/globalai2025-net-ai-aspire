@@ -23,11 +23,14 @@ public sealed class SearchPlugin
         var bingsearchconnectionName = config["aifoundryproject_groundingcnnname"];
 
         // expenses agent
-        searchagentid = "asst_48T28kP1rCWCkQAoK5aiBXFc";
+        // searchagentid = "asst_48T28kP1rCWCkQAoK5aiBXFc";
         // online researcher
         // searchagentid = "asst_V5US4WMoVc8rhVWkyZz6RIUe";
         // Warhammer Researcher
         // searchagentid = "asst_DK6k4z4ALUGe4KXJ6VqmBm26";
+
+        // Warhammer Researcher
+        searchagentid = "asst_KBVauyIhTTwPbQmcEUGxkm8o";
 
         // Adding the custom headers policy
         var clientOptions = new AIProjectClientOptions();
