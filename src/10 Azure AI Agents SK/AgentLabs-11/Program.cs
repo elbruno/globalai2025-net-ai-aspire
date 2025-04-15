@@ -35,7 +35,8 @@ KernelPlugin plugin = KernelPluginFactory.CreateFromType<SearchPlugin>();
 agent.Kernel.Plugins.Add(plugin);
 
 ChatHistory chat = [];
-var input = "Who is Bruno Capuano?"; //"Introduce the topic 'Microsoft.Extensions.AI' and share a couple of online influencers about the topic.";
+// var input = "Who is Bruno Capuano?";
+var input = "search online for the top 3 trending products in camping and outdoor activities";
 
 chat.Add(new ChatMessageContent(AuthorRole.User, input));
 Console.WriteLine($"# {AuthorRole.User}: '{input}'");

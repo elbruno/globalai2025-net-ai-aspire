@@ -17,10 +17,10 @@ public sealed class SearchPlugin
     {
         // read settings from user secrets
         var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
-        var cnnstring = config["aifoundryproject:cnnstring"];
-        var tenantid = config["aifoundryproject:tenantid"];
-        var searchagentid = "asst_DK6k4z4ALUGe4KXJ6VqmBm26"; // config["aifoundryproject:searchagentid"];
-        var bingsearchconnectionName = ""; // config["aifoundryproject:groundingcnnname"];
+        var cnnstring = config["aifoundryproject_cnnstring"];
+        var tenantid = config["aifoundryproject_tenantid"];
+        var searchagentid = "asst_V5US4WMoVc8rhVWkyZz6RIUe"; // config["aifoundryproject_searchagentid"];
+        var bingsearchconnectionName = config["aifoundryproject_groundingcnnname"];
 
         // Adding the custom headers policy
         var clientOptions = new AIProjectClientOptions();
@@ -102,8 +102,7 @@ public sealed class SearchPlugin
                 {
                     if (contentItem is MessageTextContent textItem)
                     {
-                        searchResult += textItem.Text;
-                        searchResult += "\n";
+                        searchResult += textItem.Text + "\n";
                     }
                 }
             }
