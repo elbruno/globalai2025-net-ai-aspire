@@ -97,10 +97,9 @@ public class MemoryContext
             var result = await _embeddingClient.GenerateEmbeddingAsync(search);
             var vectorSearchQuery = result.Value.ToFloats();
 
-            var searchOptions = new VectorSearchOptions()
+            var searchOptions = new VectorSearchOptions<ProductVector>()
             {
-                Top = 1,
-                VectorPropertyName = "Vector"
+                Top = 1
             };
 
             // search the vector database for the most similar product        
