@@ -22,15 +22,10 @@ public sealed class SearchPlugin
         var searchagentid = config["aifoundryproject_searchagentid"];
         var bingsearchconnectionName = config["aifoundryproject_groundingcnnname"];
 
-        // expenses agent
-        // searchagentid = "asst_48T28kP1rCWCkQAoK5aiBXFc";
-        // online researcher
-        // searchagentid = "asst_V5US4WMoVc8rhVWkyZz6RIUe";
-        // Warhammer Researcher
-        // searchagentid = "asst_DK6k4z4ALUGe4KXJ6VqmBm26";
-
-        // Warhammer Researcher
-        searchagentid = "asst_KBVauyIhTTwPbQmcEUGxkm8o";
+        searchagentid = "asst_ajqadWtAfwXHhRn19cIuZx1U"; // simple agent
+        //searchagentid = "asst_mxgEKRrdjXjp12lDPPF8WoPl"; // spanish agent
+        //searchagentid = "asst_1ztS08BMlBRTZdbxjbUdgkXg"; // online researcher agent
+        //searchagentid = "asst_hHsTsNkLntry3yxkE3zqEiy6"; // warhammer eshoplite agent
 
         // Adding the custom headers policy
         var clientOptions = new AIProjectClientOptions();
